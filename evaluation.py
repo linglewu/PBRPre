@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time    : 2022/3/21 10:28
-# @Author  : ywh
-# @File    : evaluation.py
-# @Software: PyCharm
+
 
 from sklearn.metrics import confusion_matrix, roc_auc_score, matthews_corrcoef, auc
 from sklearn.metrics import f1_score, accuracy_score, recall_score, precision_score, precision_recall_curve
